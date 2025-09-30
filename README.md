@@ -47,8 +47,6 @@ An end-to-end conversational system that **analyzes a resume**, identifies **ski
 - **Job postings** (stored in MongoDB) from Indeed (scraped or via API integration).
 - **Courses**: outbound links to Coursera/Udemy generated per missing skill keyword.
 
-> ⚠️ For production, replace scraping with a **jobs API** and add rate-limit/error handling.
-
 ---
 
 ## 🔬 Evaluation
@@ -64,13 +62,3 @@ An end-to-end conversational system that **analyzes a resume**, identifies **ski
 - **DB**: **MongoDB Atlas**
 
 ---
-
-## ⚙️ Setup
-
-### 1) Clone & env
-```bash
-git clone <your-repo-url>
-cd <your-repo>
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-cp .env.example .env     # then open .env and set secrets
