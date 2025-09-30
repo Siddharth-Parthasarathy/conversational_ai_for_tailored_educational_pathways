@@ -20,17 +20,12 @@
 - **Database:** `pymongo`, `certifi` (TLS) — **MongoDB Atlas**  
 - **Utilities:** `python-dotenv` (optional for `.env`), `urllib.parse`, `json`, `re`, `os`
 
-> Install with:
-> ```bash
-> pip install streamlit google-generativeai PyPDF2 pandas numpy scikit-learn pymongo certifi python-dotenv
-> ```
-
 ---
 
 ## 🧩 What each tab does (under the hood)
 
 ### 1) AI Chatbot
-![AI Chatbot](images/Conversational_AI_Homepage.png)
+![AI Chatbot](Images/Conversational_AI_Homepage.png)
 
 - **Purpose:** Free-form Q&A about careers, skills, learning paths, and next steps.
 - **How it works:**
@@ -41,7 +36,7 @@
 ---
 
 ### 2) ATS Resume Expert (Skill-gap finder & Course recommendation)
-![ATS Resume Expert](images/ATS_Resume_Expert.png)
+![ATS Resume Expert](Images/ATS_Resume_Expert.png)
 
 - **Purpose:** Read a **PDF resume**, detect **missing skills** for a target job, and generate **course links** to close gaps.
 - **How it works:**
@@ -55,7 +50,7 @@
 ---
 
 ### 3) Job Recommendation (resume → top job matches)
-![Job Recommendation](images/Job_Recommendation.png)
+![Job Recommendation](Images/Job_Recommendation.png)
 
 - **Purpose:** Rank real job postings against your resume and return the **Top-5** closest matches with clickable links.
 - **How it works:**
