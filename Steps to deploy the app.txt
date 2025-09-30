@@ -1,0 +1,30 @@
+Step 1: Set Up Your Environment
+Install Python: Ensure you have Python installed on your system. Streamlit requires Python 3.6 or later. You can download Python from the official Python website.
+Install Streamlit: Use pip to install Streamlit.
+
+Step 2: Develop Your Streamlit App
+Create a new Python file: For example, app.py.
+Write your Streamlit code: Here’s a simple example.
+Run your app locally:
+ 
+This will start a local server, and you can view your app in a web browser at http://localhost:8501.
+Step 3: Version Control with Git
+Initialize a Git repository:
+Add your files to the repository:
+Commit your changes:
+
+Step 4: Push Your Code to GitHub
+Create a GitHub Repository:
+Go to GitHub and create a new repository.
+Push your code to GitHub:
+
+Step 5: Deploy to Streamlit Cloud
+Sign in to Streamlit Cloud:
+Go to Streamlit Cloud and sign in with your GitHub account.
+Create a New App:
+Click on "New app".
+Select the GitHub repository and branch where your Streamlit app is located.
+Specify the path to your Python file (app.py).
+Deploy Your App:
+Click "Deploy".
+Streamlit Cloud will set up the environment and deploy your app.
